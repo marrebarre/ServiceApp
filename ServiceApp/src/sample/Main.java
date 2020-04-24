@@ -8,12 +8,18 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    public static Stage stage;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("login/login.fxml"));
         primaryStage.setTitle("Service App");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
+        primaryStage.setScene(new Scene(root));
+        primaryStage.setMinHeight(400);
+        primaryStage.setMinWidth(500);
+        primaryStage.setFullScreen(true);
+        this.stage = primaryStage;
+        this.stage.show();
     }
 
 
