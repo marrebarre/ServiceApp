@@ -20,6 +20,7 @@ public class Main extends Application {
         primaryStage.setFullScreen(true);
         this.stage = primaryStage;
         this.stage.show();
+        System.out.println("Hej");
     }
 
 
