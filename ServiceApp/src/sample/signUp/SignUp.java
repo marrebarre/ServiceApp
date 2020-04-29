@@ -1,5 +1,6 @@
 package sample.signUp;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -7,7 +8,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import sample.Main;
 import sample.users.User;
+
+import java.io.IOException;
 
 public class SignUp {
 
@@ -35,7 +39,8 @@ public class SignUp {
     @FXML
     private CheckBox Worker;
 
-    public void newUser(){
+    @FXML
+    public void createAccount (ActionEvent event) throws IOException {
         if (firstNameFie.getText().isEmpty()){
             System.out.println("Please fill in First Name");
             alert("Please fill in First Name");
@@ -64,6 +69,17 @@ public class SignUp {
         User.users.add(user);
         alert("Success");
 
+        Parent signUp = FXMLLoader.load(getClass().getResource("../login/login.fxml"));
+        Scene signUpScene = new Scene(signUp);
+        Stage signUpStage = (Stage)((Node) event.getSource()).getScene().getWindow();
+        signUpStage.setScene(signUpScene);
+        signUpStage.setTitle("Service App");
+        signUpStage.setMinHeight(400);
+        signUpStage.setMinWidth(500);
+        signUpStage.setFullScreen(true);
+        signUpStage.show();
+
+
     }
 
     public void alert(String message){
@@ -76,4 +92,5 @@ public class SignUp {
             }
         });
     }
+
 }

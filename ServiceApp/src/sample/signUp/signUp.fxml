@@ -20,6 +20,6 @@
             <CheckBox fx:id="Worker" layoutX="25.0" layoutY="169.0" mnemonicParsing="false" text="Worker" />
          </children>
       </Pane>
-      <Button fx:id="signUpBtn" layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#newUser" text="Sign Up" />
+      <Button fx:id="signUpBtn" layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#createAccount" text="Sign Up" />
    </children>
 </AnchorPane>
