@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="500.0" prefHeight="615.0" prefWidth="976.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.login.Login">
    <children>
       <VBox alignment="CENTER" prefHeight="615.0" prefWidth="457.0">
@@ -40,7 +39,7 @@
                         <Font size="20.0" />
                      </font>
                   </Label>
-                  <Button layoutX="235.0" layoutY="37.0" mnemonicParsing="false" onAction="#signUp" text="Sign up">
+                  <Button fx:id="signUpBtn" layoutX="235.0" layoutY="37.0" mnemonicParsing="false" onAction="#signUp" text="Sign up">
                      <font>
                         <Font size="20.0" />
                      </font>
