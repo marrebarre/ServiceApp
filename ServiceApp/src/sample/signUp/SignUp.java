@@ -40,7 +40,7 @@ public class SignUp {
     private CheckBox Worker;
 
     @FXML
-    public void createAccount (ActionEvent event) throws IOException {
+    public void createAccount (ActionEvent event) throws Exception {
         if (firstNameFie.getText().isEmpty()){
             System.out.println("Please fill in First Name");
             alert("Please fill in First Name");
@@ -61,24 +61,13 @@ public class SignUp {
             alert("Please fill in Password");
         } else if (Worker.isSelected()) {
             System.out.println("You are a worker");
+            addUser(firstNameFie.getText(),lastNameFie.getText(),emailFie.getText(),addressFie.getText(),
+                    SocialNumberFie.getText(),passFie.getText(),true);
         } else {
             System.out.println("You are a customer");
+            addUser(firstNameFie.getText(),lastNameFie.getText(),emailFie.getText(),addressFie.getText(),
+                    SocialNumberFie.getText(),passFie.getText(),false);
         }
-        User user = new User(firstNameFie.getText(), lastNameFie.getText(), emailFie.getText(), addressFie.getText(),
-                SocialNumberFie.getText(), passFie.getText(), Worker.isSelected());
-        User.users.add(user);
-        alert("Success");
-
-        Parent signUp = FXMLLoader.load(getClass().getResource("../login/login.fxml"));
-        Scene signUpScene = new Scene(signUp);
-        Stage signUpStage = (Stage)((Node) event.getSource()).getScene().getWindow();
-        signUpStage.setScene(signUpScene);
-        signUpStage.setTitle("Service App");
-        signUpStage.setMinHeight(400);
-        signUpStage.setMinWidth(500);
-        signUpStage.setFullScreen(true);
-        signUpStage.show();
-
 
     }
 
@@ -91,6 +80,16 @@ public class SignUp {
                 System.out.println("Pressed OK.");
             }
         });
+    }
+
+    public void addUser(String firstName, String lastName, String email,
+                        String address, String SocialNumber, String password, boolean worker) throws Exception{
+        User user = new User(firstName,lastName,email,address,SocialNumber,password,worker);
+        User.users.add(user);
+        alert("Success");
+
+        Main.switcher.scene(Main.stage,"login/login.fxml");
+
     }
 
 }
