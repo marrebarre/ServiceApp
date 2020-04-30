@@ -9,19 +9,16 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     public static Stage stage;
+    public static SceneSwitcher switcher = new SceneSwitcher();
 
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        stage=primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("login/login.fxml"));
-        primaryStage.setTitle("Service App");
-        primaryStage.setScene(new Scene(root));
-        primaryStage.setMinHeight(400);
-        primaryStage.setMinWidth(500);
-        primaryStage.setFullScreen(true);
-        this.stage = primaryStage;
-        this.stage.show();
-        System.out.println("Hej");
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
 
