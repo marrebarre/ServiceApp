@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
@@ -16,8 +17,13 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         stage=primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("login/login.fxml"));
-        Scene scene = new Scene(root);
+        primaryStage.setTitle("Service App");
+        Scene scene = new Scene(root, 1080, 720);
         primaryStage.setScene(scene);
+        primaryStage.setFullScreen(true);
+        primaryStage.setMinWidth(1080);
+        primaryStage.setMinHeight(720);
+        primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.show();
     }
 

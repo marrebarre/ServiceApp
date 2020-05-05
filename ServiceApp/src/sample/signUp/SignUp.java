@@ -92,4 +92,10 @@ public class SignUp {
 
     }
 
+    public void back()throws Exception{
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+        Main.switcher.scene(Main.stage,"login/login.fxml");
+
+    }
+
 }

@@ -4,49 +4,96 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="500.0" prefHeight="615.0" prefWidth="976.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.login.Login">
-   <children>
-      <VBox alignment="CENTER" prefHeight="615.0" prefWidth="457.0">
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.login.Login">
+   <center>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="500.0" prefHeight="615.0" prefWidth="976.0">
          <children>
-            <Pane prefHeight="187.0" prefWidth="457.0">
+            <VBox alignment="CENTER" prefHeight="615.0" prefWidth="457.0">
                <children>
-                  <TextField layoutX="80.0" layoutY="8.0" text="Username">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </TextField>
-                  <PasswordField layoutX="80.0" layoutY="69.0" onAction="#signIn" promptText="Password">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </PasswordField>
-                  <Button layoutX="80.0" layoutY="130.0" mnemonicParsing="false" onAction="#signIn" prefHeight="51.0" prefWidth="297.0" text="Sign in">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Button>
+                  <Pane prefHeight="187.0" prefWidth="457.0">
+                     <children>
+                        <TextField layoutX="80.0" layoutY="8.0" text="Username">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <PasswordField layoutX="80.0" layoutY="69.0" onAction="#signIn" promptText="Password">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </PasswordField>
+                        <Button layoutX="80.0" layoutY="130.0" mnemonicParsing="false" onAction="#signIn" prefHeight="51.0" prefWidth="297.0" text="Sign in">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="95.0" prefWidth="457.0">
+                     <children>
+                        <Label layoutX="126.0" layoutY="44.0" text="New user?">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="signUpBtn" layoutX="235.0" layoutY="37.0" mnemonicParsing="false" onAction="#signUp" text="Sign up">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
                </children>
-            </Pane>
-            <Pane prefHeight="95.0" prefWidth="457.0">
-               <children>
-                  <Label layoutX="126.0" layoutY="44.0" text="New user?">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Label>
-                  <Button fx:id="signUpBtn" layoutX="235.0" layoutY="37.0" mnemonicParsing="false" onAction="#signUp" text="Sign up">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Button>
-               </children>
-            </Pane>
+            </VBox>
          </children>
-      </VBox>
-   </children>
-</HBox>
+      </HBox>
+   </center>
+   <top>
+      <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <left>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane />
+               </children>
+            </HBox>
+         </left>
+         <right>
+            <HBox alignment="TOP_RIGHT" prefHeight="69.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="71.0" prefWidth="217.0">
+                     <children>
+                        <Button layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="51.0" prefWidth="125.0" text="Exit">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="fullscreenButton" layoutX="145.0" layoutY="11.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0">
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../pictures/fullscreen.png" />
+                                 </image>
+                                 <effect>
+                                    <Shadow height="0.0" radius="0.0" width="0.0" />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </right>
+      </BorderPane>
+   </top>
+</BorderPane>
