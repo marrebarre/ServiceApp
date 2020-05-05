@@ -4,22 +4,92 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUp.SignUp">
-   <children>
-      <Pane layoutX="100.0" layoutY="60.0" prefHeight="200.0" prefWidth="400.0">
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUp.SignUp">
+   <center>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
          <children>
-            <TextField fx:id="firstNameFie" layoutX="25.0" layoutY="25.0" promptText="First Name" />
-            <TextField fx:id="emailFie" layoutX="25.0" layoutY="75.0" promptText="E-Mail" />
-            <TextField fx:id="lastNameFie" layoutX="204.0" layoutY="25.0" promptText="Last Name" />
-            <TextField fx:id="addressFie" layoutX="25.0" layoutY="125.0" promptText="Address" />
-            <TextField fx:id="SocialNumberFie" layoutX="204.0" layoutY="75.0" promptText="Social Security Number" />
-            <PasswordField fx:id="passFie" layoutX="204.0" layoutY="125.0" promptText="Password" />
-            <CheckBox fx:id="Worker" layoutX="25.0" layoutY="169.0" mnemonicParsing="false" text="Worker" />
+            <HBox alignment="CENTER" prefHeight="251.0" prefWidth="520.0">
+               <children>
+                  <Pane prefHeight="153.0" prefWidth="600.0">
+                     <children>
+                        <TextField fx:id="firstNameFie" layoutX="2.0" text="First Name">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="emailFie" layoutX="2.0" layoutY="68.0" promptText="E-Mail">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="lastNameFie" layoutX="300.0" promptText="Last Name">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="addressFie" layoutX="2.0" layoutY="136.0" promptText="Address">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="SocialNumberFie" layoutX="300.0" layoutY="67.0" promptText="Social Security Number">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <PasswordField fx:id="passFie" layoutX="300.0" layoutY="136.0" promptText="Password">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </PasswordField>
+                        <CheckBox fx:id="Worker" layoutX="14.0" layoutY="208.0" mnemonicParsing="false" text="Worker">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </CheckBox>
+                        <Button fx:id="signUpBtn" layoutX="470.0" layoutY="200.0" mnemonicParsing="false" onAction="#createAccount" text="Sign Up">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
          </children>
-      </Pane>
-      <Button fx:id="signUpBtn" layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#createAccount" text="Sign Up" />
-   </children>
-</AnchorPane>
+      </VBox>
+   </center>
+   <top>
+      <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <left>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane>
+                     <children>
+                        <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="125.0" text="Back">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </left>
+         <right>
+            <HBox alignment="TOP_RIGHT" prefHeight="69.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane />
+               </children>
+            </HBox>
+         </right>
+      </BorderPane>
+   </top>
+</BorderPane>
