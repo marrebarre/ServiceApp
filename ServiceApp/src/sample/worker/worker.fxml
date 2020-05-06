@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane prefHeight="224.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job Right now:" />
+            <Text layoutX="102.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Job!" />
+            <TextArea layoutX="13.0" layoutY="53.0" prefHeight="171.0" prefWidth="574.0" />
+            <Text layoutX="14.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job Description" />
+            <Button layoutX="532.0" layoutY="10.0" mnemonicParsing="false" text="Logout" />
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="14.0" layoutY="36.0" promptText="First Name" />
+            <TextField layoutX="226.0" layoutY="36.0" promptText="Last Name" />
+            <TextField layoutX="437.0" layoutY="36.0" promptText="Email" />
+            <TextField layoutX="14.0" layoutY="76.0" promptText="Address" />
+            <TextField layoutX="226.0" layoutY="76.0" promptText="Social Security Number" />
+            <TextField layoutX="436.0" layoutY="76.0" promptText="Password" />
+            <TextField layoutX="14.0" layoutY="113.0" promptText="Bank Account" />
+            <Button layoutX="458.0" layoutY="126.0" mnemonicParsing="false" text="Save Information" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>
