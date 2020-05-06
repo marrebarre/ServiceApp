@@ -24,7 +24,7 @@ public class Login implements Initializable {
 
     public void signIn()throws Exception{
         Main.switcher.fsMode = Main.stage.isFullScreen();
-        Main.switcher.scene(Main.stage,"customer/browse.fxml");
+        Main.switcher.scene(Main.stage,"customer/accountpage.fxml");
 
     }
 
