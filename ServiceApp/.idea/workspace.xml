@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/database/Database.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,50 +62,66 @@
       <option name="presentableId" value="Default" />
       <updated>1589110926694</updated>
       <workItem from="1589110943404" duration="640000" />
-      <workItem from="1589111622340" duration="3808000" />
+      <workItem from="1589111622340" duration="4031000" />
+      <workItem from="1589278345976" duration="614000" />
     </task>
+    <task id="LOCAL−00001" summary="database class is added and two methods are added to the class">
+      <created>1589116495667</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1589116495667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="database class is added and two methods are added to the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="database class is added and two methods are added to the class" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="120" width="671" height="685" key="#Main" timestamp="1589116184704">
+    <state x="413" y="120" width="671" height="685" key="#Main" timestamp="1589278996289">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="413" y="120" width="671" height="685" key="#Main/67.27.1373.873@67.27.1373.873" timestamp="1589116184704" />
+    <state x="413" y="120" width="671" height="685" key="#Main/67.27.1373.873@67.27.1373.873" timestamp="1589278996289" />
     <state x="348" y="124" width="800" height="677" key="#SQL_Dialects" timestamp="1589115284453">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="348" y="124" width="800" height="677" key="#SQL_Dialects/67.27.1373.873@67.27.1373.873" timestamp="1589115284453" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1589116495505">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1589116495505" />
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" timestamp="1589111543582">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1589111543582" />
-    <state width="1327" height="364" key="GridCell.Tab.0.bottom" timestamp="1589116188188">
+    <state width="1327" height="428" key="GridCell.Tab.0.bottom" timestamp="1589278999729">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="364" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1589116188188" />
-    <state width="1327" height="364" key="GridCell.Tab.0.center" timestamp="1589116188187">
+    <state width="1327" height="428" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1589278999729" />
+    <state width="1327" height="428" key="GridCell.Tab.0.center" timestamp="1589278999728">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="364" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1589116188187" />
-    <state width="1327" height="364" key="GridCell.Tab.0.left" timestamp="1589116188187">
+    <state width="1327" height="428" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1589278999728" />
+    <state width="1327" height="428" key="GridCell.Tab.0.left" timestamp="1589278999728">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="364" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1589116188187" />
-    <state width="1327" height="364" key="GridCell.Tab.0.right" timestamp="1589116188188">
+    <state width="1327" height="428" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1589278999728" />
+    <state width="1327" height="428" key="GridCell.Tab.0.right" timestamp="1589278999729">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="364" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1589116188188" />
+    <state width="1327" height="428" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1589278999729" />
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor" timestamp="1589111555156">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1589111555156" />
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1589110945662">
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1589278345896">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1589110945662" />
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1589278345896" />
     <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1589116149945">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
