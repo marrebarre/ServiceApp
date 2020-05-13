@@ -34,9 +34,10 @@ public class Browse implements Initializable {
         Main.switcher.scene(Main.stage,"login/login.fxml");
     }
 
-    public void grocery(){
+    public void grocery() throws Exception {
 
-        System.out.println("Yo");
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+        Main.switcher.scene(Main.stage,"customer/createService.fxml");
 
     }
 
@@ -70,7 +71,11 @@ public class Browse implements Initializable {
         groceryPane.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                grocery();
+                try {
+                    grocery();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
         groceryPane.setOnMouseEntered(new EventHandler<MouseEvent>() {
@@ -89,7 +94,11 @@ public class Browse implements Initializable {
         petPane.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                grocery();
+                try {
+                    grocery();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
         petPane.setOnMouseEntered(new EventHandler<MouseEvent>() {

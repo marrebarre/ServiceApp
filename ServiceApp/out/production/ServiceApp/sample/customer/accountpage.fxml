@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.Browse">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.AccountPage">
    <top>
       <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
          <left>
@@ -62,11 +62,11 @@
    <left>
       <TilePane alignment="CENTER" prefHeight="577.0" prefWidth="963.0" BorderPane.alignment="CENTER">
          <children>
-            <Pane fx:id="groceryPane" prefHeight="200.0" prefWidth="179.0">
+            <Pane fx:id="groceryPane" onMouseClicked="#grocery" prefHeight="200.0" prefWidth="179.0">
                <children>
                   <VBox alignment="CENTER" prefHeight="202.0" prefWidth="200.0">
                      <children>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#grocery" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../pictures/cart.png" />
                            </image>

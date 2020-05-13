@@ -13,9 +13,9 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class AccountPage implements Initializable {
-
     @FXML
     Pane groceryPane = new Pane();
+
     @FXML
     Pane petPane = new Pane();
     @FXML
@@ -34,12 +34,10 @@ public class AccountPage implements Initializable {
         Main.switcher.scene(Main.stage,"login/login.fxml");
     }
 
-    public void grocery(){
-
-        System.out.println("Yo");
-
-        //TODO - When the button is clicked, refer to new scene "CreateService". Possibly autofill type of service
-
+    public void grocery() throws Exception {
+        System.out.println("hallo");
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+         Main.switcher.scene(Main.stage,"customer/createService.fxml");
     }
 
     public void pet(){
@@ -76,9 +74,14 @@ public class AccountPage implements Initializable {
         groceryPane.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                grocery();
+                try {
+                    grocery();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
+
         groceryPane.setOnMouseEntered(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
@@ -95,7 +98,11 @@ public class AccountPage implements Initializable {
         petPane.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                grocery();
+                try {
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
         petPane.setOnMouseEntered(new EventHandler<MouseEvent>() {
