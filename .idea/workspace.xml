@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897eb16d-6c23-41ef-afa3-b31e13ee3696" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ServiceApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ServiceApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/SceneSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/SceneSwitcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Browse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Settings$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Settings$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/customer/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/signUp/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/signUp/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/worker/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/worker/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +16,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1cDK8qFl7VHRccQkzzZfOc1kWih" />
   <component name="ProjectViewState">
@@ -88,8 +65,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588790222314</updated>
-      <workItem from="1590057569914" duration="3116000" />
+      <workItem from="1590057569914" duration="3359000" />
     </task>
+    <task id="LOCAL−00001" summary="Select methods added">
+      <created>1590061070689</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1590061070689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,13 +81,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GUI update and functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI update and functionality" />
+    <MESSAGE value="Select methods added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Select methods added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590057574771">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1590057574771" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1590061070249">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590061070249" />
     <state x="338" y="141" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590057735882">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -132,9 +121,13 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1590057741368" />
-    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590061039247">
+    <state x="348" y="187" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1590061196230">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1373.873@67.27.1373.873" timestamp="1590061039247" />
+    <state x="348" y="187" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590061196230" />
+    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590061251348">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1373.873@67.27.1373.873" timestamp="1590061251348" />
   </component>
 </project>
