@@ -88,6 +88,7 @@ public class SignUp {
         User.users.add(user);
         alert("Success");
 
+        Main.switcher.fsMode = Main.stage.isFullScreen();
         Main.switcher.scene(Main.stage,"login/login.fxml");
 
     }
