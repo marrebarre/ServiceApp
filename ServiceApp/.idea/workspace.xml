@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="" />
+    <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/signUp/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/signUp/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/signUp/signUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/signUp/signUp.fxml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/login/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/signUp/SignUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-347">
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/signUp/signUp.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,10 +75,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/signUp/SignUp.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="675" />
+    <option name="width" value="699" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectId" id="1biNOfkZozpHvTvA6ApRdaN1Gbh" />
   <component name="ProjectView">
@@ -30,9 +93,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="signUp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ServiceApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ServiceApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ServiceApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ServiceApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -43,7 +155,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590059543745" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,11 +173,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="ServiceApp" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -73,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -101,33 +229,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2582996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26820603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,49 +268,159 @@
     <option name="LAST_COMMIT_MESSAGE" value="database class is added and two methods are added to the class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="120" width="671" height="685" key="#Main" timestamp="1589278996289">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="413" y="120" width="671" height="685" key="#Main/67.27.1373.873@67.27.1373.873" timestamp="1589278996289" />
-    <state x="348" y="124" width="800" height="677" key="#SQL_Dialects" timestamp="1589115284453">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="348" y="124" width="800" height="677" key="#SQL_Dialects/67.27.1373.873@67.27.1373.873" timestamp="1589115284453" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1589116495505">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1589116495505" />
-    <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" timestamp="1589111543582">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1589111543582" />
-    <state width="1327" height="428" key="GridCell.Tab.0.bottom" timestamp="1589278999729">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="1327" height="428" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1589278999729" />
-    <state width="1327" height="428" key="GridCell.Tab.0.center" timestamp="1589278999728">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="1327" height="428" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1589278999728" />
-    <state width="1327" height="428" key="GridCell.Tab.0.left" timestamp="1589278999728">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="1327" height="428" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1589278999728" />
-    <state width="1327" height="428" key="GridCell.Tab.0.right" timestamp="1589278999729">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="1327" height="428" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1589278999729" />
-    <state x="236" y="40" width="1024" height="845" key="SettingsEditor" timestamp="1589111555156">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1589111555156" />
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1589278345896">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1589278345896" />
-    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1589116149945">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" timestamp="1589116149945" />
+    <state x="413" y="120" width="671" height="685" key="#Main" />
+    <state x="413" y="120" width="671" height="685" key="#Main/67.27.1373.873@67.27.1373.873" />
+    <state x="348" y="124" width="800" height="677" key="#SQL_Dialects" />
+    <state x="348" y="124" width="800" height="677" key="#SQL_Dialects/67.27.1373.873@67.27.1373.873" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" />
+    <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" />
+    <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="428" key="GridCell.Tab.0.bottom" />
+    <state width="1327" height="428" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="428" key="GridCell.Tab.0.center" />
+    <state width="1327" height="428" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="428" key="GridCell.Tab.0.left" />
+    <state width="1327" height="428" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="428" key="GridCell.Tab.0.right" />
+    <state width="1327" height="428" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" />
+    <state x="236" y="40" width="1024" height="845" key="SettingsEditor" />
+    <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" />
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" />
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" />
+    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" />
+    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ServiceApp.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp/signUp.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp/SignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ServiceApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

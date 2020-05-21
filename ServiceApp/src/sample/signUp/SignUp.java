@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 import sample.Main;
+import sample.database.Database;
 import sample.users.User;
 
 import java.io.IOException;
@@ -36,8 +37,20 @@ public class SignUp {
     @FXML
     private Button signUpBtn;
 
+
+    @FXML
+    private TextField cityFie;
+
+    @FXML
+    private TextField phoneFie;
+
+    @FXML
+    private TextArea CV;
+
     @FXML
     private CheckBox Worker;
+
+    Database database = new Database();
 
     @FXML
     public void createAccount (ActionEvent event) throws Exception {
@@ -59,14 +72,20 @@ public class SignUp {
         } else if (passFie.getText().isEmpty()) {
             System.out.println("Please fill in Password");
             alert("Please fill in Password");
+        } else if (phoneFie.getText().isEmpty()) {
+            System.out.println("Please fill in Phone Number");
+            alert("Please fill in Phone Number");
+        } else if (cityFie.getText().isEmpty()) {
+            System.out.println("Please fill in City");
+            alert("Please fill in City");
         } else if (Worker.isSelected()) {
             System.out.println("You are a worker");
-            addUser(firstNameFie.getText(),lastNameFie.getText(),emailFie.getText(),addressFie.getText(),
-                    SocialNumberFie.getText(),passFie.getText(),true);
+            addUser(firstNameFie.getText(),lastNameFie.getText(),emailFie.getText(),cityFie.getText(),
+                    CV.getText(),addressFie.getText(),SocialNumberFie.getText(),passFie.getText(),phoneFie.getText(),true);
         } else {
             System.out.println("You are a customer");
-            addUser(firstNameFie.getText(),lastNameFie.getText(),emailFie.getText(),addressFie.getText(),
-                    SocialNumberFie.getText(),passFie.getText(),false);
+            addUser(firstNameFie.getText(),lastNameFie.getText(),emailFie.getText(),
+                    cityFie.getText(),CV.getText(),addressFie.getText(),SocialNumberFie.getText(),passFie.getText(),phoneFie.getText(),false);
         }
 
     }
@@ -82,12 +101,14 @@ public class SignUp {
         });
     }
 
-    public void addUser(String firstName, String lastName, String email,
-                        String address, String SocialNumber, String password, boolean worker) throws Exception{
-        User user = new User(firstName,lastName,email,address,SocialNumber,password,worker);
-        User.users.add(user);
+    public void addUser(String firstName, String lastName, String email,String city, String cv ,
+                        String address, String SocialNumber, String password, String phone, boolean worker) throws Exception{
+        if (worker) {
+            database.insertemployee(firstName, lastName,address,city,phone,cv, SocialNumber,email,password);
+        } else {
+            database.insertnewuser(firstName,lastName,address,city,phone,SocialNumber,password,email);
+        }
         alert("Success");
-
         Main.switcher.fsMode = Main.stage.isFullScreen();
         Main.switcher.scene(Main.stage,"login/login.fxml");
 
