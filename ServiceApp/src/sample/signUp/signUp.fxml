@@ -3,13 +3,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-
 
 <BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUp.SignUp">
    <center>
@@ -49,20 +49,21 @@
                               <Font size="24.0" />
                            </font>
                         </PasswordField>
-                        <CheckBox fx:id="Worker" layoutX="14.0" layoutY="208.0" mnemonicParsing="false" text="Worker">
+                        <TextField fx:id="cityFie" layoutX="2.0" layoutY="200.0" promptText="City">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </CheckBox>
-                        <Button fx:id="signUpBtn" layoutX="470.0" layoutY="200.0" mnemonicParsing="false" onAction="#createAccount" text="Sign Up">
+                        </TextField>
+                        <TextField fx:id="phoneFie" layoutX="300.0" layoutY="200.0" promptText="Phone Number ">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </Button>
+                        </TextField>
                      </children>
                   </Pane>
                </children>
             </HBox>
+            <TextArea fx:id="CV" prefHeight="113.0" prefWidth="600.0" promptText="CV (This is only needed when you sign upp as a worker)" />
          </children>
       </VBox>
    </center>
@@ -92,4 +93,28 @@
          </right>
       </BorderPane>
    </top>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Pane prefHeight="100.0" prefWidth="689.0">
+                     <children>
+                        <CheckBox fx:id="Worker" layoutX="240.0" layoutY="37.0" mnemonicParsing="false" text="Worker">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </CheckBox>
+                        <Button fx:id="signUpBtn" layoutX="419.0" layoutY="25.0" mnemonicParsing="false" onAction="#createAccount" text="Sign Up">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
 </BorderPane>
