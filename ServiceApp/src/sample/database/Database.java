@@ -16,7 +16,57 @@ public class Database {
             System.out.println("The connection fails");
         }
     }
-
+    //These selects are used to get specific information about users such as name, aftername, city, or address or just anything
+    public String getusername(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT Name FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuserstreetaddress(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT StreetAddress FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuserphone(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT Phone FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getusercity(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT City FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuseraftername (String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT Aftername FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuserSSN(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT SSN FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    //
+    //
     public void insertnewuser(String name, String aftername, String streetaddress, String city, String phone, String SSN, String password, String email) {
         try {
 
