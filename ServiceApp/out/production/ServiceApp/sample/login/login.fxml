@@ -21,12 +21,12 @@
                <children>
                   <Pane prefHeight="187.0" prefWidth="457.0">
                      <children>
-                        <TextField layoutX="80.0" layoutY="8.0" text="Username">
+                        <TextField fx:id="username" layoutX="80.0" layoutY="8.0" text="Username">
                            <font>
                               <Font size="24.0" />
                            </font>
                         </TextField>
-                        <PasswordField layoutX="80.0" layoutY="69.0" onAction="#signIn" promptText="Password">
+                        <PasswordField fx:id="password" layoutX="80.0" layoutY="69.0" onAction="#signIn" promptText="Password">
                            <font>
                               <Font size="24.0" />
                            </font>
