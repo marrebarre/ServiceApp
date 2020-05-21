@@ -5,18 +5,70 @@ import java.sql.*;
 public class Database {
     String url = "jdbc:mysql://127.0.0.1:3306/SE1?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&user=root&password=root";
     Statement statement;
-
-
+    Connection c;
     public Database() {
         try {
-            Connection c = (Connection) DriverManager.getConnection(url);
+          c = (Connection) DriverManager.getConnection(url);
             statement = c.createStatement();
         } catch (SQLException ex) {
             ex.printStackTrace();
             System.out.println("The connection fails");
         }
     }
-
+    //
+    //
+    //These selects are used to get specific information about users such as name, aftername, city, or address or just anything
+    public String getusername(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT Name FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+           toreturn=rs.getString(1);
+            }
+        return toreturn;
+    }
+    public String getuserstreetaddress(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT StreetAddress FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuserphone(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT Phone FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getusercity(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT City FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuseraftername (String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT Aftername FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getuserSSN(String email,String password) throws SQLException {
+        String toreturn="";
+        ResultSet rs = statement.executeQuery("SELECT SSN FROM Employee WHERE Email ='" + email + "'And Password='" + password + "'");
+        while (rs.next()) {
+            toreturn=rs.getString(1);
+        }
+        return toreturn;
+    }
+    //
+    //
+    //Down here we have some insert methods
     public void insertnewuser(String name, String aftername, String streetaddress, String city, String phone, String SSN, String password, String email) {
         try {
 
@@ -51,6 +103,9 @@ public class Database {
         }
     }
 
+    //
+    //
+    //Down here these methods check the validity of the login for both users and employees
     public boolean validemployee(String email, String password) {
         boolean exists = false;
         try {
@@ -92,4 +147,5 @@ public class Database {
         return exists;
 
     }
+
 }
