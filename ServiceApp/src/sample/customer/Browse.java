@@ -1,5 +1,6 @@
 package sample.customer;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -29,23 +30,38 @@ public class Browse implements Initializable {
         Main.switcher.scene(Main.stage,"customer/settings.fxml");
     }
 
+    public void account() throws Exception{
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+        Main.switcher.scene(Main.stage,"customer/account.fxml");
+    }
+
     public void logOut()throws Exception{
         Main.switcher.fsMode = Main.stage.isFullScreen();
         Main.switcher.scene(Main.stage,"login/login.fxml");
     }
 
+    public void exit(){
+        Platform.exit();
+    }
+
     public void grocery() throws Exception {
 
         Main.switcher.fsMode = Main.stage.isFullScreen();
-        Main.switcher.scene(Main.stage,"customer/createService.fxml");
+        Main.switcher.scene(Main.stage,"customer/specification.fxml");
 
     }
 
-    public void pet(){
+    public void pet() throws Exception{
+
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+        Main.switcher.scene(Main.stage,"customer/specification.fxml");
 
     }
 
-    public void garden(){
+    public void garden() throws Exception{
+
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+        Main.switcher.scene(Main.stage,"customer/specification.fxml");
 
     }
 
@@ -95,7 +111,7 @@ public class Browse implements Initializable {
             @Override
             public void handle(MouseEvent event) {
                 try {
-                    grocery();
+                    pet();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -117,7 +133,11 @@ public class Browse implements Initializable {
         gardenPane.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                garden();
+                try {
+                    garden();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
         gardenPane.setOnMouseEntered(new EventHandler<MouseEvent>() {

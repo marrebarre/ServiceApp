@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.Settings">
-   <center>
-      <Pane prefHeight="200.0" prefWidth="684.0" BorderPane.alignment="CENTER" />
-   </center>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.Settings">
    <top>
       <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
          <left>
@@ -34,9 +33,14 @@
          <right>
             <HBox alignment="TOP_RIGHT" prefHeight="69.0" prefWidth="246.0" BorderPane.alignment="CENTER">
                <children>
-                  <Pane prefHeight="71.0" prefWidth="223.0">
+                  <Pane prefHeight="71.0" prefWidth="217.0">
                      <children>
-                        <Button fx:id="fullscreenButton" layoutX="149.0" layoutY="11.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0">
+                        <Button layoutX="78.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="51.0" prefWidth="125.0" text="Exit">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="fullscreenButton" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0">
                            <graphic>
                               <ImageView fitHeight="42.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -55,4 +59,39 @@
          </right>
       </BorderPane>
    </top>
+   <center>
+      <TilePane alignment="CENTER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane>
+               <children>
+                  <Label layoutX="85.0" layoutY="-3.0" text="Change password">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="4.0" layoutY="52.0" text="Old">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutY="123.0" text="New">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <PasswordField layoutX="60.0" layoutY="44.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </PasswordField>
+                  <PasswordField layoutX="60.0" layoutY="115.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </Pane>
+         </children>
+      </TilePane>
+   </center>
 </BorderPane>

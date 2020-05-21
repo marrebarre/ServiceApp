@@ -3,13 +3,16 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.CreateService">
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.Specification">
    <center>
       <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
          <children>
@@ -17,12 +20,7 @@
                <children>
                   <Pane prefHeight="265.0" prefWidth="600.0">
                      <children>
-                        <TextField id="typeOfService" fx:id="firstNameFie" layoutX="2.0" promptText="Type of service">
-                           <font>
-                              <Font size="24.0" />
-                           </font>
-                        </TextField>
-                        <TextField id="specification" fx:id="emailFie" layoutX="2.0" layoutY="68.0" promptText="Specificaton">
+                        <TextField id="typeOfService" fx:id="firstNameFie" layoutX="2.0" text="Type of service">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -32,7 +30,7 @@
                               <Font size="24.0" />
                            </font>
                         </TextField>
-                        <TextField id="note" fx:id="addressFie" layoutX="2.0" layoutY="136.0" promptText="Note to worker">
+                        <TextField id="specification" fx:id="emailFie" layoutX="2.0" layoutY="68.0" promptText="Specificaton">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -42,21 +40,26 @@
                               <Font size="24.0" />
                            </font>
                         </TextField>
+                        <TextField id="note" fx:id="addressFie" layoutX="2.0" layoutY="136.0" promptText="Note to worker">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
                         <PasswordField id="tel" fx:id="passFie" layoutX="300.0" layoutY="136.0" promptText="Telephone">
                            <font>
                               <Font size="24.0" />
                            </font>
                         </PasswordField>
-                        <Button fx:id="signUpBtn" layoutX="496.0" layoutY="200.0" mnemonicParsing="false" onAction="#createAccount" text="Create">
-                           <font>
-                              <Font size="24.0" />
-                           </font>
-                        </Button>
                         <TextField id="comp" fx:id="firstNameFie1" layoutX="2.0" layoutY="200.0" prefHeight="51.0" prefWidth="297.0" promptText="Compensation">
                            <font>
                               <Font size="24.0" />
                            </font>
                         </TextField>
+                        <Button fx:id="signUpBtn" layoutX="496.0" layoutY="200.0" mnemonicParsing="false" text="Create">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
                      </children>
                   </Pane>
                </children>
@@ -84,7 +87,27 @@
          <right>
             <HBox alignment="TOP_RIGHT" prefHeight="69.0" prefWidth="600.0" BorderPane.alignment="CENTER">
                <children>
-                  <Pane />
+                  <Pane prefHeight="71.0" prefWidth="217.0">
+                     <children>
+                        <Button layoutX="78.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="51.0" prefWidth="125.0" text="Exit">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="fullscreenButton" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="55.0">
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../pictures/fullscreen.png" />
+                                 </image>
+                                 <effect>
+                                    <Shadow height="0.0" radius="0.0" width="0.0" />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
                </children>
             </HBox>
          </right>
