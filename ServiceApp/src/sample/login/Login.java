@@ -38,7 +38,7 @@ public class Login implements Initializable {
     public void signIn()throws Exception{
         if (database.validemployee(username.getText(),password.getText())){
             Main.switcher.fsMode = Main.stage.isFullScreen();
-            Main.switcher.scene(Main.stage,"customer/browse.fxml");
+            Main.switcher.scene(Main.stage,"worker/worker.fxml");
             signUp.alert("Success");
 
         } else if (database.validuser(username.getText(),password.getText())){
