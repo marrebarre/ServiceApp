@@ -89,6 +89,22 @@ public class Database {
         }
         return toreturn;
     }
+    public String getemployeephone(String email) throws SQLException {
+        String toreturn = "";
+        ResultSet rs = statement.executeQuery("SELECT Phone FROM Employee WHERE Email ='" + email + "'");
+        while (rs.next()) {
+            toreturn = rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getemployeename(String email) throws SQLException {
+        String toreturn = "";
+        ResultSet rs = statement.executeQuery("SELECT Name FROM Employee WHERE Email ='" + email + "'");
+        while (rs.next()) {
+            toreturn = rs.getString(1);
+        }
+        return toreturn;
+    }
     public String getPassword(String email) throws SQLException {
         String toreturn = "";
         ResultSet rs = statement.executeQuery("SELECT Password FROM Employee WHERE Email ='" + email + "'");
@@ -231,6 +247,14 @@ public class Database {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public boolean isunavailable(String email) throws SQLException {
+        boolean unavailable=true;
+        ResultSet rs = statement.executeQuery ("SELECT * FROM Employee WHERE email ='" + email + "'And Available='1'");
+        while (rs.next()) {
+         unavailable=false;
+        }
+        return unavailable;
     }
     public void notAvailable() {
         try {

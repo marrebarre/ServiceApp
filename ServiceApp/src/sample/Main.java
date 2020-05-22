@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import sample.database.Database;
+import sample.database.TestAvailability;
 
 public class Main extends Application {
 
@@ -25,6 +27,9 @@ public class Main extends Application {
         primaryStage.setMinHeight(720);
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.show();
+        TestAvailability testAvailability=new TestAvailability();
+        testAvailability.insert();
+        testAvailability.putasavailable("mo@hotmail.com");
     }
 
 
