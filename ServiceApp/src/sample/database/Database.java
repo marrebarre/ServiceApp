@@ -22,7 +22,7 @@ public class Database {
     //These selects are used to get specific information about users such as name, aftername, city, or address or just anything
     public String getusername(String email) throws SQLException {
         String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT Name FROM Employee WHERE email ='" + email + "'");
+        ResultSet rs = statement.executeQuery("SELECT Name FROM Employee WHERE Email ='" + email + "'");
         while (rs.next()) {
             toreturn = rs.getString(1);
         }
@@ -31,7 +31,7 @@ public class Database {
 
     public String getuserstreetaddress(String email) throws SQLException {
         String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT StreetAddress FROM Employee WHERE email ='" + email + "'");
+        ResultSet rs = statement.executeQuery("SELECT StreetAddress FROM Employee WHERE Email ='" + email + "'");
         while (rs.next()) {
             toreturn = rs.getString(1);
         }
@@ -40,7 +40,7 @@ public class Database {
 
     public String getuserphone(String email) throws SQLException {
         String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT Phone FROM Employee WHERE email ='" + email + "'");
+        ResultSet rs = statement.executeQuery("SELECT Phone FROM Employee WHERE Email ='" + email + "'");
         while (rs.next()) {
             toreturn = rs.getString(1);
         }
@@ -49,7 +49,7 @@ public class Database {
 
     public String getusercity(String email) throws SQLException {
         String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT City FROM Employee WHERE email ='" + email + "'");
+        ResultSet rs = statement.executeQuery("SELECT City FROM Employee WHERE Email ='" + email + "'");
         while (rs.next()) {
             toreturn = rs.getString(1);
         }
@@ -58,7 +58,7 @@ public class Database {
 
     public String getuseraftername(String email) throws SQLException {
         String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT Aftername FROM Employee WHERE email ='" + email + "'");
+        ResultSet rs = statement.executeQuery("SELECT Aftername FROM Employee WHERE Email ='" + email + "'");
         while (rs.next()) {
             toreturn = rs.getString(1);
         }
@@ -67,7 +67,31 @@ public class Database {
 
     public String getuserSSN(String email) throws SQLException {
         String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT SSN FROM Employee WHERE email ='" + email + "'");
+        ResultSet rs = statement.executeQuery("SELECT SSN FROM Employee WHERE Email ='" + email + "'");
+        while (rs.next()) {
+            toreturn = rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getEmail(String email) throws SQLException {
+        String toreturn = "";
+        ResultSet rs = statement.executeQuery("SELECT Email FROM Employee WHERE Email ='" + email + "'");
+        while (rs.next()) {
+            toreturn = rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getCV(String email) throws SQLException {
+        String toreturn = "";
+        ResultSet rs = statement.executeQuery("SELECT Cv FROM Employee WHERE Email ='" + email + "'");
+        while (rs.next()) {
+            toreturn = rs.getString(1);
+        }
+        return toreturn;
+    }
+    public String getPassword(String email) throws SQLException {
+        String toreturn = "";
+        ResultSet rs = statement.executeQuery("SELECT Password FROM Employee WHERE Email ='" + email + "'");
         while (rs.next()) {
             toreturn = rs.getString(1);
         }
@@ -115,20 +139,21 @@ public class Database {
 
             String sqlUpdate = "UPDATE Employee SET" +
                     " Name = '" + name + "'," +
-                    " Aftername= '" + aftername + "'," +
-                    " StreetAddress= '" + streetaddress + "'," +
-                    " City= '" + city + "'," +
-                    " Phone= '" + phone + "'," +
-                    " Cv= '" + cv + "'," +
-                    " SSN= '" + SSN + "'," +
-                    " email= '" + email + "'," +
-                    " Password= '" + password + "'" +
-                    " WHERE Email = '" + Login.email+"'";
+                    " Aftername = '" + aftername + "'," +
+                    " StreetAddress = '" + streetaddress + "'," +
+                    " City = '" + city + "'," +
+                    " Phone = '" + phone + "'," +
+                    " Cv = '" + cv + "'," +
+                    " SSN = '" + SSN + "'," +
+                    " Email = '" + email + "'," +
+                    " Password = '" + password + "'" +
+                    " WHERE Email = '" + Login.email + "'";
+
             try {
 
                 statement.executeUpdate(sqlUpdate);
             } catch (Exception e) {
-
+                System.out.println(e);
             }
             System.out.println();
             System.out.println("Table updated!");
