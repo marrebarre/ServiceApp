@@ -114,16 +114,16 @@ public class Database {
         try {
 
             String sqlUpdate = "UPDATE Employee SET" +
-                    "Name = '" + name + "'," +
-                    "Aftername= '" + aftername + "'," +
-                    "StreetAddress= '" + streetaddress + "'," +
-                    "City= '" + city + "'," +
-                    "Phone= '" + phone + "'," +
-                    "Cv= '" + cv + "'," +
-                    "SSN= '" + SSN + "'," +
-                    "email= '" + email + "'," +
-                    "Password= '" + password + "'" +
-                    " WHERE Email = '" + Login.email;
+                    " Name = '" + name + "'," +
+                    " Aftername= '" + aftername + "'," +
+                    " StreetAddress= '" + streetaddress + "'," +
+                    " City= '" + city + "'," +
+                    " Phone= '" + phone + "'," +
+                    " Cv= '" + cv + "'," +
+                    " SSN= '" + SSN + "'," +
+                    " email= '" + email + "'," +
+                    " Password= '" + password + "'" +
+                    " WHERE Email = '" + Login.email+"'";
             try {
 
                 statement.executeUpdate(sqlUpdate);
@@ -135,6 +135,16 @@ public class Database {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void updateCustomerPassword(String email, String newPass){
+
+        try {
+            statement.executeUpdate("UPDATE Customer SET Password = '"+newPass+"' WHERE Email = '"+email+"'");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public boolean validemployee(String email, String password) {
@@ -164,8 +174,9 @@ public class Database {
             ResultSet rs = statement.executeQuery("SELECT * FROM Customer WHERE email ='" + email + "'And Password='" + password + "'");
 
             while (rs.next()) {
-                if (rs.getString(8).equals(email)) {
-                    if (rs.getString(9).equals(password)) {
+                System.out.println(rs.getString(8)+":"+rs.getString(9));
+                if (rs.getString(8).equals(password)) {
+                    if (rs.getString(9).equals(email)) {
                         exists = true;
                         break;
                     }

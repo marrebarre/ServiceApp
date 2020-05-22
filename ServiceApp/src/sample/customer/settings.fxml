@@ -62,7 +62,7 @@
    <center>
       <TilePane alignment="CENTER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Pane>
+            <Pane prefHeight="233.0" prefWidth="360.0">
                <children>
                   <Label layoutX="85.0" layoutY="-3.0" text="Change password">
                      <font>
@@ -79,16 +79,21 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <PasswordField layoutX="60.0" layoutY="44.0">
+                  <PasswordField fx:id="oldPass" layoutX="60.0" layoutY="44.0">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </PasswordField>
-                  <PasswordField layoutX="60.0" layoutY="115.0">
+                  <PasswordField fx:id="newPass" layoutX="60.0" layoutY="115.0">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </PasswordField>
+                  <Button layoutX="247.0" layoutY="168.0" mnemonicParsing="false" onAction="#changePass" text="Update">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
                </children>
             </Pane>
          </children>
