@@ -59,16 +59,63 @@
       </BorderPane>
    </top>
    <center>
-      <TilePane alignment="CENTER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <TilePane alignment="CENTER" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Pane prefHeight="351.0" prefWidth="468.0">
+            <Pane prefHeight="291.0" prefWidth="603.0">
                <children>
-                  <Label layoutX="153.0" layoutY="97.0" text="Your balance: 0">
+                  <Pane layoutY="39.0" prefHeight="255.0" prefWidth="605.0">
+                     <children>
+                        <TilePane alignment="CENTER" hgap="5.0" prefHeight="257.0" prefWidth="605.0">
+                           <children>
+                              <Pane prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: grey;">
+                                 <children>
+                                    <Label layoutX="22.0" layoutY="14.0" text="Pet sitting">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="10.0" layoutY="75.0" prefHeight="60.0" prefWidth="130.0" text="I need you to look after my dog when I visit the dentist" wrapText="true" />
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: grey;">
+                                 <children>
+                                    <Label layoutX="20.0" layoutY="14.0" text="Gardening">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="10.0" layoutY="75.0" prefHeight="60.0" prefWidth="130.0" text="Cut my grass in my garden thanks" wrapText="true" />
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: grey;">
+                                 <children>
+                                    <Label layoutX="22.0" layoutY="14.0" text="Pet sitting">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="10.0" layoutY="75.0" prefHeight="60.0" prefWidth="130.0" text="CBA walking dog please help" wrapText="true" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </TilePane>
+                     </children>
+                  </Pane>
+                  <Label layoutX="232.0" layoutY="14.0" text="Order history">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Button layoutX="181.0" layoutY="136.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="106.0" text="Add">
+               </children>
+            </Pane>
+            <Pane prefHeight="164.0" prefWidth="199.0">
+               <children>
+                  <Label layoutX="220.0" layoutY="101.0" text="Your balance: 0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="248.0" layoutY="140.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="106.0" text="Add">
                      <font>
                         <Font size="24.0" />
                      </font>
