@@ -13,7 +13,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Worker {
-    EditProfile editProfile = new EditProfile();
     Database database = new Database();
 
     @FXML
@@ -23,6 +22,7 @@ public class Worker {
     }
 
     public void exit(){
+        database.notAvailable();
         Platform.exit();
     }
 
