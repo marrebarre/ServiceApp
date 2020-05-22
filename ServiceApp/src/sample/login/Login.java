@@ -36,6 +36,7 @@ public class Login implements Initializable {
             Main.switcher.scene(Main.stage,"worker/worker.fxml");
             signUp.alert("Success");
             email = username.getText();
+            database.Available();
 
         } else if (database.validuser(username.getText(),password.getText())){
             Main.switcher.fsMode = Main.stage.isFullScreen();

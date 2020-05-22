@@ -202,4 +202,40 @@ public class Database {
         return exists;
 
     }
+    public void Available() {
+        try {
+
+            String sqlUpdate = "UPDATE Employee SET" +
+                    " Available = '" + 1 + "'" +
+                    " WHERE Email = '" + Login.email + "'";
+            try {
+
+                statement.executeUpdate(sqlUpdate);
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            System.out.println();
+            System.out.println("Table updated!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public void notAvailable() {
+        try {
+
+            String sqlUpdate = "UPDATE Employee SET" +
+                    " Available = '" + 0 + "'" +
+                    " WHERE Email = '" + Login.email + "'";
+            try {
+
+                statement.executeUpdate(sqlUpdate);
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            System.out.println();
+            System.out.println("Table updated!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
