@@ -2,23 +2,156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897eb16d-6c23-41ef-afa3-b31e13ee3696" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ServiceApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ServiceApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/signUp/signUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/signUp/signUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceApp/src/sample/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceApp/src/sample/login/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="59931044">
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.delete.local" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="318" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="318" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServiceApp/src/sample/login/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-430">
+              <caret line="69" column="98" selection-start-line="69" selection-start-column="98" selection-end-line="69" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ServiceApp/src/sample/login/Login.java" />
+        <option value="$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1161" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1cDK8qFl7VHRccQkzzZfOc1kWih" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,12 +161,144 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590056692974" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590139890096" />
+    <property name="last_opened_file_path" value="C:/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/login/Login.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/worker/Worker.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/out/production/ServiceApp/sample/worker/worker.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/login/Login.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/login/login.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/signUp/signUp.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/worker/Worker.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/worker/worker.fxml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/worker/EditProfile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ServiceApp/src/sample/worker/editProfile.fxml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,6 +316,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -83,6 +349,38 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1161" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15440509" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24534501" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -92,62 +390,131 @@
     <option name="LAST_COMMIT_MESSAGE" value="Select methods added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="334" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590061496241">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1590057574771" />
-    <state x="585" y="334" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" timestamp="1590061496241" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1590061289202">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590061289202" />
-    <state x="338" y="141" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590057735882">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="338" y="141" width="735" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1590057735882" />
-    <state width="1327" height="2" key="GridCell.Tab.0.bottom" timestamp="1590061456286">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="625" height="278" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1590057750750" />
-    <state width="1327" height="2" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1590061456286" />
-    <state width="1327" height="2" key="GridCell.Tab.0.center" timestamp="1590061456284">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="625" height="278" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1590057750750" />
-    <state width="1327" height="2" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1590061456284" />
-    <state width="1327" height="2" key="GridCell.Tab.0.left" timestamp="1590061456283">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="625" height="278" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1590057750749" />
-    <state width="1327" height="2" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1590061456283" />
-    <state width="1327" height="2" key="GridCell.Tab.0.right" timestamp="1590061456285">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state width="625" height="278" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1590057750750" />
-    <state width="1327" height="2" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1590061456285" />
-    <state x="458" y="180" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1590061486359">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="458" y="180" width="580" height="564" key="MultipleFileMergeDialog/67.27.1373.873@67.27.1373.873" timestamp="1590061486359" />
-    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1590057741368">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1590057741368" />
-    <state x="348" y="187" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1590061291947">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="348" y="187" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590061291947" />
-    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590061521879">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1373.873@67.27.1373.873" timestamp="1590061521879" />
-    <state x="480" y="156" width="537" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590061588177">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="480" y="156" width="537" height="612" key="git4idea.branch.GitSmartOperationDialog/67.27.1373.873@67.27.1373.873" timestamp="1590061588177" />
-    <state x="478" y="376" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590061431926">
-      <screen x="67" y="27" width="1373" height="873" />
-    </state>
-    <state x="478" y="376" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1373.873@67.27.1373.873" timestamp="1590061431926" />
+    <state x="585" y="334" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" />
+    <state x="585" y="334" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" />
+    <state x="338" y="141" width="735" height="513" key="FileChooserDialogImpl" />
+    <state x="338" y="141" width="735" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" />
+    <state width="1327" height="2" key="GridCell.Tab.0.bottom" />
+    <state width="625" height="278" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" />
+    <state width="1327" height="2" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="2" key="GridCell.Tab.0.center" />
+    <state width="625" height="278" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" />
+    <state width="1327" height="2" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="2" key="GridCell.Tab.0.left" />
+    <state width="625" height="278" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" />
+    <state width="1327" height="2" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" />
+    <state width="1327" height="2" key="GridCell.Tab.0.right" />
+    <state width="625" height="278" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" />
+    <state width="1327" height="2" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" />
+    <state x="458" y="180" width="580" height="564" key="MultipleFileMergeDialog" />
+    <state x="458" y="180" width="580" height="564" key="MultipleFileMergeDialog/67.27.1373.873@67.27.1373.873" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" />
+    <state x="348" y="187" width="800" height="551" key="Vcs.Push.Dialog.v2" />
+    <state x="348" y="187" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" />
+    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1373.873@67.27.1373.873" />
+    <state x="480" y="156" width="537" height="612" key="git4idea.branch.GitSmartOperationDialog" />
+    <state x="480" y="156" width="537" height="612" key="git4idea.branch.GitSmartOperationDialog/67.27.1373.873@67.27.1373.873" />
+    <state x="478" y="376" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" />
+    <state x="478" y="376" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1373.873@67.27.1373.873" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ServiceApp/src/sample/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceApp/src/sample/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="69" column="98" selection-start-line="69" selection-start-column="98" selection-end-line="69" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ServiceApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

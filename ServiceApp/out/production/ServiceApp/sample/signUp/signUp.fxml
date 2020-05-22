@@ -19,12 +19,7 @@
                <children>
                   <Pane prefHeight="153.0" prefWidth="600.0">
                      <children>
-                        <TextField fx:id="firstNameFie" layoutX="2.0" text="First Name">
-                           <font>
-                              <Font size="24.0" />
-                           </font>
-                        </TextField>
-                        <TextField fx:id="emailFie" layoutX="2.0" layoutY="68.0" promptText="E-Mail">
+                        <TextField fx:id="firstNameFie" layoutX="2.0" promptText="First Name" text="First Name">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -34,12 +29,17 @@
                               <Font size="24.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="addressFie" layoutX="2.0" layoutY="136.0" promptText="Address">
+                        <TextField fx:id="emailFie" layoutX="2.0" layoutY="68.0" promptText="E-Mail">
                            <font>
                               <Font size="24.0" />
                            </font>
                         </TextField>
                         <TextField fx:id="SocialNumberFie" layoutX="300.0" layoutY="67.0" promptText="Social Security Number">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="addressFie" layoutX="2.0" layoutY="136.0" promptText="Address">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -63,7 +63,11 @@
                   </Pane>
                </children>
             </HBox>
-            <TextArea fx:id="CV" prefHeight="113.0" prefWidth="600.0" promptText="CV (This is only needed when you sign upp as a worker)" />
+            <Pane prefHeight="113.0" prefWidth="577.0">
+               <children>
+                  <TextArea fx:id="CV" layoutX="3.0" prefHeight="113.0" prefWidth="595.0" promptText="CV (This is only needed when you sign upp as a worker)" />
+               </children>
+            </Pane>
          </children>
       </VBox>
    </center>
