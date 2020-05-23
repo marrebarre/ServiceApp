@@ -27,9 +27,11 @@ public class Main extends Application {
         primaryStage.setMinHeight(720);
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.show();
-        TestAvailability testAvailability=new TestAvailability();
+        /*TestAvailability testAvailability=new TestAvailability();
         testAvailability.insert();
         testAvailability.putasavailable("mo@hotmail.com");
+
+         */
     }
 
 

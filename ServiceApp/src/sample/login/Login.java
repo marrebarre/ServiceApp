@@ -19,6 +19,8 @@ public class Login implements Initializable {
 
     public static String email;
 
+
+
     @FXML
     private TextField username;
 

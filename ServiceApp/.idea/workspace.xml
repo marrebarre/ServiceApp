@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="">
+
       <change afterPath="$PROJECT_DIR$/src/sample/database/DatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ServiceApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ServiceApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -27,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/users/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/Worker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/users/User.java" afterDir="false" />
+
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,12 +141,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -321,7 +323,9 @@
       <workItem from="1589110943404" duration="640000" />
       <workItem from="1589111622340" duration="4031000" />
       <workItem from="1589278345976" duration="614000" />
-      <workItem from="1590170916274" duration="1125000" />
+      <workItem from="1590170916274" duration="1433000" />
+      <workItem from="1590232368803" duration="4624000" />
+      <workItem from="1590237002936" duration="1124000" />
     </task>
     <task id="LOCAL−00001" summary="database class is added and two methods are added to the class">
       <created>1589116495667</created>
@@ -364,7 +368,13 @@
       <option name="project" value="LOCAL" />
       <updated>1590144313284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Added availability check, employee phone acess, and availability test clas">
+      <created>1590172145879</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1590172145879</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -434,7 +444,8 @@
     <MESSAGE value="Login method fixed with validation" />
     <MESSAGE value="Edit profile for worker" />
     <MESSAGE value="EditProfile methods are now functioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="EditProfile methods are now functioning" />
+    <MESSAGE value="Added availability check, employee phone acess, and availability test clas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added availability check, employee phone acess, and availability test clas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="120" width="671" height="685" key="#Main" timestamp="1590170927345" />
@@ -445,34 +456,42 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" timestamp="1590170929465" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1590170927345" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590170927345" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1590172145666">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590172145666" />
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590172037401">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1590172037401" />
-    <state width="1327" height="298" key="GridCell.Tab.0.bottom" timestamp="1590172086110">
+    <state width="1327" height="261" key="GridCell.Tab.0.bottom" timestamp="1590238175790">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="298" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1590172086110" />
-    <state width="1327" height="298" key="GridCell.Tab.0.center" timestamp="1590172086109">
+    <state width="1327" height="261" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1590238175790" />
+    <state width="1327" height="261" key="GridCell.Tab.0.center" timestamp="1590238175790">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="298" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1590172086109" />
-    <state width="1327" height="298" key="GridCell.Tab.0.left" timestamp="1590172086109">
+    <state width="1327" height="261" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1590238175790" />
+    <state width="1327" height="261" key="GridCell.Tab.0.left" timestamp="1590238175789">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="298" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1590172086109" />
-    <state width="1327" height="298" key="GridCell.Tab.0.right" timestamp="1590172086110">
+    <state width="1327" height="261" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1590238175789" />
+    <state width="1327" height="261" key="GridCell.Tab.0.right" timestamp="1590238175790">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="1327" height="298" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1590172086110" />
+    <state width="1327" height="261" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1590238175790" />
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor" timestamp="1590172042698">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1590172042698" />
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1590170927345" />
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1590170927345" />
+    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590172148196">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590172148196" />
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1590232368419">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1590232368419" />
     <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1590170927345" />
     <state x="416" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" timestamp="1590170927345" />
   </component>

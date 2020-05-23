@@ -6,16 +6,34 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import sample.Main;
+import sample.Order.Order;
+import sample.login.Login;
 
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class Specification implements Initializable {
 
     @FXML
     Button fullscreenButton = new Button();
-
+    @FXML
+    TextField Tittleid=new TextField();
+    @FXML
+    TextField addressid=new TextField();
+    @FXML
+    TextField Phoneid=new TextField();
+    @FXML
+    TextField noteid=new TextField();
+    @FXML
+    TextField specid=new TextField();
+    @FXML
+    Button signUpBtn=new Button();
+    public void create() throws SQLException {
+        Order order=new Order(Login.email,specid.getText(),Tittleid.getText(),addressid.getText(),Phoneid.getText());
+    }
 
 
 

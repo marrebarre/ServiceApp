@@ -25,6 +25,7 @@ public class Browse implements Initializable {
     @FXML
     Button fullscreenButton = new Button();
 
+
     public void settings()throws Exception{
         Main.switcher.fsMode = Main.stage.isFullScreen();
         Main.switcher.scene(Main.stage,"customer/settings.fxml");

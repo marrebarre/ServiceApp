@@ -5,7 +5,7 @@ import sample.login.Login;
 import java.sql.SQLException;
 
 public class TestAvailability {
-    Database database=new Database();
+ /*   Database database=new Database();
     public void insert(){
         database.insertemployee("Mohammed","mo","kulladalsgatan20A","Malmö","02399230","I love serving people","329932932"
                 ,"mo@hotmail.com","kiki");
@@ -22,4 +22,7 @@ public class TestAvailability {
             System.out.println("is unavailable");
         }
     }
+
+  */
 }
+
