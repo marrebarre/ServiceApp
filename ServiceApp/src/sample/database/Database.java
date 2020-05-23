@@ -1,5 +1,6 @@
 package sample.database;
 
+import sample.Order.Order;
 import sample.login.Login;
 
 import java.sql.*;
@@ -29,6 +30,20 @@ public class Database {
         return toreturn;
     }
 
+    public void getavailableemployees() throws SQLException {
+        ResultSet rs=statement.executeQuery("SELECT idEmployee From Employee WHERE Available='1'");
+        while (rs.next()){
+            Order.employees.add(rs.getInt(1));
+        }
+    }
+    public int getuserid(String email) throws SQLException {
+        int id=0;
+        ResultSet rs=statement.executeQuery("SELECT idCustomer FROM Customer WHERE Email='"+email+"'");
+        while (rs.next()){
+            id=rs.getInt(1);
+        }
+        return id;
+    }
     public String getuserstreetaddress(String email) throws SQLException {
         String toreturn = "";
         ResultSet rs = statement.executeQuery("SELECT StreetAddress FROM Employee WHERE Email ='" + email + "'");
@@ -97,14 +112,7 @@ public class Database {
         }
         return toreturn;
     }
-    public String getemployeename(String email) throws SQLException {
-        String toreturn = "";
-        ResultSet rs = statement.executeQuery("SELECT Name FROM Employee WHERE Email ='" + email + "'");
-        while (rs.next()) {
-            toreturn = rs.getString(1);
-        }
-        return toreturn;
-    }
+
     public String getPassword(String email) throws SQLException {
         String toreturn = "";
         ResultSet rs = statement.executeQuery("SELECT Password FROM Employee WHERE Email ='" + email + "'");
@@ -116,9 +124,21 @@ public class Database {
 
     //
     //
-    public void insertnewuser(String name, String aftername, String streetaddress, String city, String phone, String SSN, String password, String email) {
+    public void insertorder(int userid,int employeeid,String tittle,String specification,String phone,String streetaddress) {
+        String sqlUpdate = "Insert INTO Orders(Service,Customer_idCustomer,Employee_idEmployee,Specification,Address,Phone) Values('" + tittle + "','" + userid + "','" + employeeid + "','" + specification + "','" + phone + "','" + streetaddress + "')";
         try {
 
+            statement.executeUpdate(sqlUpdate);
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        }
+        System.out.println("Table orders updated!");
+    }
+
+    public void insertnewuser(String name, String aftername, String streetaddress, String city, String phone, String SSN, String password, String email) {
+        try {
             String sqlUpdate = "Insert INTO Customer(Name,Aftername,StreetAddress,City,Phone,SSN,Password,email) Values('" + name + "','" + aftername + "','" + streetaddress + "','" + city + "','" + phone + "','" + SSN + "','" + password + "','" + email + "')";
             try {
 
