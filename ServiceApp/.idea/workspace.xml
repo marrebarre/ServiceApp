@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="Now a customer can create an order (Service)">
-      <change afterPath="$PROJECT_DIR$/src/sample/Order/Tasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/worker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/worker.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/customer/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/customer/Specification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/worker/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/worker/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/worker/worker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/worker/worker.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +104,7 @@
       <workItem from="1590318984923" duration="35000" />
       <workItem from="1590319023475" duration="10000" />
       <workItem from="1590319039162" duration="583000" />
-      <workItem from="1590319626002" duration="1528000" />
+      <workItem from="1590319626002" duration="1847000" />
     </task>
     <task id="LOCAL−00001" summary="database class is added and two methods are added to the class">
       <created>1589116495667</created>
@@ -184,7 +159,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1590238388070</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="order can be viewed by employees and checked as done">
+      <created>1590325513431</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1590325513431</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -207,7 +188,8 @@
     <MESSAGE value="EditProfile methods are now functioning" />
     <MESSAGE value="Added availability check, employee phone acess, and availability test clas" />
     <MESSAGE value="Now a customer can create an order (Service)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now a customer can create an order (Service)" />
+    <MESSAGE value="order can be viewed by employees and checked as done" />
+    <option name="LAST_COMMIT_MESSAGE" value="order can be viewed by employees and checked as done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="120" width="671" height="685" key="#Main" timestamp="1590170927345" />
@@ -222,9 +204,10 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" timestamp="1590170929465" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1590316471066">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state x="304" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1590325567633">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
+    <state x="304" y="27" width="860" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590325567633" />
     <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590316471066" />
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590172037401">
       <screen x="67" y="27" width="1373" height="873" />
@@ -254,9 +237,10 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1590172042698" />
-    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590238394169">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state x="333" y="172" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590325517890">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
+    <state x="333" y="172" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590325517890" />
     <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590238394169" />
     <state x="409" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1590310546890">
       <screen x="67" y="27" width="1373" height="873" />
