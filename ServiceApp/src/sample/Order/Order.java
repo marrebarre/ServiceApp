@@ -16,7 +16,7 @@ public class Order {
     String tittle;
     String address;
     String phone;
-    public Order(String user,String specification,String tittle,String address,String phone) throws SQLException {
+    public Order(String user,String specification,String tittle,String address,String phone,String note,String date) throws SQLException {
         this.user=user;
         this.specification=specification;
         this.tittle=tittle;
@@ -26,7 +26,7 @@ public class Order {
         database.getavailableemployees();
         SecureRandom random=new SecureRandom();
         this.employee=employees.get(random.nextInt(employees.size()));
-        database.insertorder(userid,employee,tittle,specification,phone,address);
+        database.insertorder(userid,employee,tittle,specification,phone,address,note,date);
     }
 
 }

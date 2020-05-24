@@ -1,9 +1,11 @@
 package sample.database;
 
 import sample.Order.Order;
+import sample.Order.Tasks;
 import sample.login.Login;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class Database {
     String url = "jdbc:mysql://127.0.0.1:3306/SE1?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&user=root&password=root";
@@ -104,6 +106,17 @@ public class Database {
         }
         return toreturn;
     }
+    public void deletefromorders(int id){
+        String sqlUpdate ="delete from Orders WHERE idOrder='"+id+"'";
+        try {
+
+            statement.executeUpdate(sqlUpdate);
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        }
+    }
     public String getemployeephone(String email) throws SQLException {
         String toreturn = "";
         ResultSet rs = statement.executeQuery("SELECT Phone FROM Employee WHERE Email ='" + email + "'");
@@ -124,8 +137,25 @@ public class Database {
 
     //
     //
-    public void insertorder(int userid,int employeeid,String tittle,String specification,String phone,String streetaddress) {
-        String sqlUpdate = "Insert INTO Orders(Service,Customer_idCustomer,Employee_idEmployee,Specification,Address,Phone) Values('" + tittle + "','" + userid + "','" + employeeid + "','" + specification + "','" + phone + "','" + streetaddress + "')";
+    public ArrayList<Tasks>tasksgetmytasks(int id) throws SQLException {
+        ArrayList<Tasks>arrayList=new ArrayList<>();
+        ResultSet rs=statement.executeQuery("SELECT*from Orders WHERE Employee_idEmployee='"+id+"'");
+        while (rs.next()){
+            arrayList.add(new Tasks(rs.getInt(1),rs.getString(6),rs.getString(7),rs.getString(5),rs.getString(2),rs.getString(9),rs.getString(8)));
+        }
+        System.out.println(arrayList.size());
+        return arrayList;
+    }
+    public int getemployeeid(String email) throws SQLException {
+        int id=0;
+        ResultSet rs=statement.executeQuery("SELECT idEmployee FROM Employee WHERE Email='"+email+"'");
+        while (rs.next()){
+            id=rs.getInt(1);
+        }
+        return id;
+    }
+    public void insertorder(int userid,int employeeid,String tittle,String specification,String phone,String streetaddress,String note,String date) {
+        String sqlUpdate = "Insert INTO Orders(Service,Customer_idCustomer,Employee_idEmployee,Specification,Address,Phone,Note,Date) Values('" + tittle + "','" + userid + "','" + employeeid + "','" + specification + "','" + phone + "','" + streetaddress + "','"+note+"','"+date+"')";
         try {
 
             statement.executeUpdate(sqlUpdate);

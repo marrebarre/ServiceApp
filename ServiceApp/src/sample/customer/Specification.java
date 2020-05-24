@@ -16,7 +16,8 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class Specification implements Initializable {
-
+    @FXML
+    TextField Dateid=new TextField();
     @FXML
     Button fullscreenButton = new Button();
     @FXML
@@ -31,8 +32,10 @@ public class Specification implements Initializable {
     TextField specid=new TextField();
     @FXML
     Button signUpBtn=new Button();
+
     public void create() throws SQLException {
-        Order order=new Order(Login.email,specid.getText(),Tittleid.getText(),addressid.getText(),Phoneid.getText());
+        Order order=new Order(Login.email,specid.getText(),Tittleid.getText(),addressid.getText(),Phoneid.getText(),noteid.getText(),Dateid.getText());
+
     }
 
 
