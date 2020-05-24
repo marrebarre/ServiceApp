@@ -1,5 +1,6 @@
 package sample.worker;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -67,6 +68,15 @@ public class EditProfile implements Initializable {
     public void getBack()throws Exception{
         Main.switcher.scene(Main.stage, "worker/worker.fxml");
     }
+
+    public void exit(){
+        database.notAvailable();
+        Platform.exit();
+    }
+    public void fullscreen() throws Exception{
+        Main.switcher.fullscreen(Main.stage);
+    }
+
     public void save(){
         if (firstNameFie.getText().isEmpty()){
             System.out.println("Please fill in First Name");
