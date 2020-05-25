@@ -85,6 +85,11 @@ public class Worker implements Initializable {
         Platform.exit();
     }
 
+    public void back()throws Exception{
+        Main.switcher.fsMode = Main.stage.isFullScreen();
+        Main.switcher.scene(Main.stage,"login/Login.fxml");
+    }
+
     public void fullscreen() throws Exception{
         Main.switcher.fullscreen(Main.stage);
     }

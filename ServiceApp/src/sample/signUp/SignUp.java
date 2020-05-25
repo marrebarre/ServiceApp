@@ -10,7 +10,6 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 import sample.Main;
 import sample.database.Database;
-import sample.users.User;
 
 import java.io.IOException;
 
