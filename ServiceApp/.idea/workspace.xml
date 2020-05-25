@@ -2,141 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50748213-994e-4657-b7dd-332942b2be97" name="Default Changelist" comment="">
-
-      <change afterPath="$PROJECT_DIR$/src/sample/database/DatabaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ServiceApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ServiceApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/SceneSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/SceneSwitcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Browse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Settings$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Settings$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/customer/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/login/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/signUp/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/signUp/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServiceApp/sample/worker/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/users/User.java" afterDir="false" />
-
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/database/DatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/database/TestAvailability.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/SceneSwitcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/login/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/worker/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/worker/EditProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/signUp/SignUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/users/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -148,104 +25,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/sample/users/User.java" />
-        <option value="$PROJECT_DIR$/src/sample/signUp/SignUpTest.java" />
-        <option value="$PROJECT_DIR$/src/sample/database/DatabaseTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
-    <option name="width" value="995" />
-    <option name="height" value="1031" />
-  </component>
   <component name="ProjectId" id="1biNOfkZozpHvTvA6ApRdaN1Gbh" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServiceApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServiceApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590233735735" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590145736732" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="sample.database" />
-      <recent name="sample.signUp" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="ServiceApp" />
@@ -270,41 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ServiceApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sample.database" />
-      <option name="MAIN_CLASS_NAME" value="sample.database.DatabaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ServiceApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.signUp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sample.signUp" />
-      <option name="MAIN_CLASS_NAME" value="sample.signUp.SignUpTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.SignUpTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -325,7 +92,22 @@
       <workItem from="1589278345976" duration="614000" />
       <workItem from="1590170916274" duration="1433000" />
       <workItem from="1590232368803" duration="4624000" />
-      <workItem from="1590237002936" duration="1124000" />
+      <workItem from="1590237002936" duration="1985000" />
+      <workItem from="1590310550312" duration="1982000" />
+      <workItem from="1590312540580" duration="181000" />
+      <workItem from="1590312725237" duration="104000" />
+      <workItem from="1590312832708" duration="55000" />
+      <workItem from="1590312890361" duration="202000" />
+      <workItem from="1590313096501" duration="36000" />
+      <workItem from="1590313135155" duration="627000" />
+      <workItem from="1590313885051" duration="544000" />
+      <workItem from="1590314433673" duration="1623000" />
+      <workItem from="1590316060825" duration="1222000" />
+      <workItem from="1590318984923" duration="35000" />
+      <workItem from="1590319023475" duration="10000" />
+      <workItem from="1590319039162" duration="583000" />
+      <workItem from="1590319626002" duration="2452000" />
+      <workItem from="1590398033899" duration="438000" />
     </task>
     <task id="LOCAL−00001" summary="database class is added and two methods are added to the class">
       <created>1589116495667</created>
@@ -374,25 +156,62 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1590172145879</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Now a customer can create an order (Service)">
+      <created>1590238388070</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1590238388070</updated>
+    </task>
+    <task id="LOCAL−00009" summary="order can be viewed by employees and checked as done">
+      <created>1590325513431</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1590325513431</updated>
+    </task>
+    <task id="LOCAL−00010" summary="order can be viewed by employees and checked as done">
+      <created>1590325587430</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1590325587430</updated>
+    </task>
+    <task id="LOCAL−00011" summary="order can be viewed by employees and checked as done">
+      <created>1590325727796</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1590325727796</updated>
+    </task>
+    <task id="LOCAL−00012" summary="order can be viewed by employees and checked as done">
+      <created>1590325783502</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1590325783502</updated>
+    </task>
+    <task id="LOCAL−00013" summary="order can be viewed by employees and checked as done">
+      <created>1590325964085</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1590325964085</updated>
+    </task>
+    <task id="LOCAL−00014" summary="order can be viewed by employees and checked as done">
+      <created>1590326108507</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1590326108507</updated>
+    </task>
+    <task id="LOCAL−00015" summary="order can be viewed by employees and checked as done">
+      <created>1590398075480</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1590398075480</updated>
+    </task>
+    <task id="LOCAL−00016" summary="order can be viewed by employees and checked as done">
+      <created>1590398116940</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1590398116940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="SignUpTest - 2020.05.23 at 12h 32m 44s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2020.05.23 at 13h 17m 39s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2020.05.23 at 13h 25m 02s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2020.05.23 at 13h 25m 45s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2020.05.23 at 13h 26m 11s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,38 +221,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6739606" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27353463" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -445,153 +232,76 @@
     <MESSAGE value="Edit profile for worker" />
     <MESSAGE value="EditProfile methods are now functioning" />
     <MESSAGE value="Added availability check, employee phone acess, and availability test clas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added availability check, employee phone acess, and availability test clas" />
+    <MESSAGE value="Now a customer can create an order (Service)" />
+    <MESSAGE value="order can be viewed by employees and checked as done" />
+    <option name="LAST_COMMIT_MESSAGE" value="order can be viewed by employees and checked as done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="120" width="671" height="685" key="#Main" timestamp="1590170927345" />
     <state x="413" y="120" width="671" height="685" key="#Main/67.27.1373.873@67.27.1373.873" timestamp="1590170927345" />
+    <state x="311" y="58" width="800" height="677" key="#Notifications" timestamp="1590325977203">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Notifications/67.27.1299.741@67.27.1299.741" timestamp="1590325977203" />
     <state x="348" y="124" width="800" height="677" key="#SQL_Dialects" timestamp="1590170927345" />
     <state x="348" y="124" width="800" height="677" key="#SQL_Dialects/67.27.1373.873@67.27.1373.873" timestamp="1590170927345" />
+    <state x="561" y="175" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1590314277209">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="561" y="175" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1373.873@67.27.1373.873" timestamp="1590314277209" />
     <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590170929465">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" timestamp="1590170929465" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2" timestamp="1590172145666">
+    <state x="318" y="39" width="860" height="741" key="CommitChangelistDialog2" timestamp="1590398116739">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590172145666" />
+    <state x="304" y="27" width="860" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590326108387" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590398116739" />
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590172037401">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1590172037401" />
-    <state width="1327" height="261" key="GridCell.Tab.0.bottom" timestamp="1590238175790">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="626" height="229" key="GridCell.Tab.0.bottom" timestamp="1590326270432">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1327" height="261" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1590238175790" />
-    <state width="1327" height="261" key="GridCell.Tab.0.center" timestamp="1590238175790">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="626" height="229" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1590326270432" />
+    <state width="1327" height="229" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1590320243511" />
+    <state width="626" height="229" key="GridCell.Tab.0.center" timestamp="1590326270431">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1327" height="261" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1590238175790" />
-    <state width="1327" height="261" key="GridCell.Tab.0.left" timestamp="1590238175789">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="626" height="229" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1590326270431" />
+    <state width="1327" height="229" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1590320243510" />
+    <state width="626" height="229" key="GridCell.Tab.0.left" timestamp="1590326270430">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1327" height="261" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1590238175789" />
-    <state width="1327" height="261" key="GridCell.Tab.0.right" timestamp="1590238175790">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="626" height="229" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1590326270430" />
+    <state width="1327" height="229" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1590320243510" />
+    <state width="626" height="229" key="GridCell.Tab.0.right" timestamp="1590326270431">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1327" height="261" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1590238175790" />
+    <state width="626" height="229" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1590326270431" />
+    <state width="1327" height="229" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1590320243511" />
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor" timestamp="1590172042698">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1590172042698" />
-    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590172148196">
+    <state x="348" y="198" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1590398133116">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590172148196" />
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1590232368419">
+    <state x="333" y="172" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590326115268" />
+    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590398133116" />
+    <state x="409" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1590398058371">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1590232368419" />
-    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1590170927345" />
-    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" timestamp="1590170927345" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ServiceApp.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/customer/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/customer/Browse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1156">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/worker/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/worker/EditProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SceneSwitcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/users/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/database/TestAvailability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/database/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <state x="409" y="294" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1590398058371" />
+    <state x="484" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590326062270">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="484" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741@67.27.1299.741" timestamp="1590326062270" />
+    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1590311104822">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" timestamp="1590311104822" />
   </component>
 </project>

@@ -34,11 +34,13 @@ public class Login implements Initializable {
 
     public void signIn()throws Exception{
         if (database.validemployee(username.getText(),password.getText())){
+            email=username.getText();
             Main.switcher.fsMode = Main.stage.isFullScreen();
             Main.switcher.scene(Main.stage,"worker/worker.fxml");
             signUp.alert("Success");
             email = username.getText();
             database.Available();
+
 
         } else if (database.validuser(username.getText(),password.getText())){
             Main.switcher.fsMode = Main.stage.isFullScreen();
