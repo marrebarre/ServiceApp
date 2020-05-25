@@ -107,6 +107,7 @@
       <workItem from="1590319023475" duration="10000" />
       <workItem from="1590319039162" duration="583000" />
       <workItem from="1590319626002" duration="2452000" />
+      <workItem from="1590398033899" duration="438000" />
     </task>
     <task id="LOCAL−00001" summary="database class is added and two methods are added to the class">
       <created>1589116495667</created>
@@ -197,7 +198,19 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1590326108507</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="order can be viewed by employees and checked as done">
+      <created>1590398075480</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1590398075480</updated>
+    </task>
+    <task id="LOCAL−00016" summary="order can be viewed by employees and checked as done">
+      <created>1590398116940</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1590398116940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -240,11 +253,11 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" timestamp="1590170929465" />
-    <state x="318" y="39" width="860" height="741" key="CommitChangelistDialog2" timestamp="1590398074406">
+    <state x="318" y="39" width="860" height="741" key="CommitChangelistDialog2" timestamp="1590398116739">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="304" y="27" width="860" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590326108387" />
-    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590398074406" />
+    <state x="318" y="39" width="860" height="847" key="CommitChangelistDialog2/67.27.1373.873@67.27.1373.873" timestamp="1590398116739" />
     <state x="375" y="206" width="735" height="513" key="FileChooserDialogImpl" timestamp="1590172037401">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
@@ -273,11 +286,11 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1590172042698" />
-    <state x="348" y="198" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1590398082160">
+    <state x="348" y="198" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1590398133116">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="333" y="172" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590326115268" />
-    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590398082160" />
+    <state x="348" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1373.873@67.27.1373.873" timestamp="1590398133116" />
     <state x="409" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1590398058371">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
