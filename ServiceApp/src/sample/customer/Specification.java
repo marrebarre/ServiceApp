@@ -9,6 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import sample.Main;
 import sample.Order.Order;
+import sample.SceneSwitcher;
 import sample.login.Login;
 
 import java.net.URL;
@@ -34,7 +35,21 @@ public class Specification implements Initializable {
     Button signUpBtn=new Button();
 
     public void create() throws SQLException {
-        Order order=new Order(Login.email,specid.getText(),Tittleid.getText(),addressid.getText(),Phoneid.getText(),noteid.getText(),Dateid.getText());
+
+        try {
+            Order order=new Order(Login.email,specid.getText(),Tittleid.getText(),addressid.getText(),Phoneid.getText(),noteid.getText(),Dateid.getText());
+            SceneSwitcher.alert("Success!");
+        } catch (Exception e) {
+            e.printStackTrace();
+            SceneSwitcher.alert("No available worker!");
+        }
+
+        Dateid.setText("");
+        Tittleid.setText("");
+        addressid.setText("");
+        Phoneid.setText("");
+        noteid.setText("");
+        specid.setText("");
 
     }
 

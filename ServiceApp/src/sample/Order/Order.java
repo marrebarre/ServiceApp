@@ -24,6 +24,7 @@ public class Order {
         this.phone=phone;
         this.userid= database.getuserid(user);
         database.getavailableemployees();
+        System.out.println(employees.size());
         SecureRandom random=new SecureRandom();
         this.employee=employees.get(random.nextInt(employees.size()));
         database.insertorder(userid,employee,tittle,specification,phone,address,note,date);

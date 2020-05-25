@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.Specification">
+<BorderPane prefHeight="610.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.customer.Specification">
    <center>
       <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
          <children>
-            <HBox alignment="CENTER" prefHeight="251.0" prefWidth="520.0">
+            <HBox alignment="CENTER" prefHeight="405.0" prefWidth="618.0">
                <children>
-                  <Pane prefHeight="265.0" prefWidth="600.0">
+                  <Pane prefHeight="265.0" prefWidth="602.0">
                      <children>
-                        <TextField id="typeOfService" fx:id="Tittleid" layoutX="2.0" text="Type of service">
+                        <TextField id="typeOfService" fx:id="Tittleid" layoutX="2.0" promptText="Type of service" text="Type of service">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -24,12 +29,12 @@
                               <Font size="24.0" />
                            </font>
                         </TextField>
-                        <TextField id="specification" fx:id="specid" layoutX="2.0" layoutY="68.0" promptText="Specificaton">
+                        <TextField id="date" fx:id="Phoneid" layoutX="2.0" layoutY="68.0" promptText="Phone">
                            <font>
                               <Font size="24.0" />
                            </font>
                         </TextField>
-                        <TextField id="address" fx:id="addressid" layoutX="300.0" layoutY="67.0" promptText="Address">
+                        <TextField id="address" fx:id="addressid" layoutX="300.0" layoutY="68.0" promptText="Address">
                            <font>
                               <Font size="24.0" />
                            </font>
@@ -39,13 +44,13 @@
                               <Font size="24.0" />
                            </font>
                         </TextField>
-                        <PasswordField id="tel" fx:id="Phoneid" layoutX="300.0" layoutY="136.0" promptText="Telephone">
+                        <TextField id="specification" fx:id="specid" alignment="TOP_LEFT" layoutX="2.0" layoutY="200.0" prefHeight="138.0" prefWidth="592.0" promptText="Specificaton">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </PasswordField>
+                        </TextField>
 
-                        <Button fx:id="signUpBtn" layoutX="496.0" layoutY="200.0" mnemonicParsing="false" onAction="#create" text="Create">
+                        <Button fx:id="signUpBtn" layoutX="494.0" layoutY="349.0" mnemonicParsing="false" onAction="#create" text="Create">
                            <font>
                               <Font size="24.0" />
                            </font>

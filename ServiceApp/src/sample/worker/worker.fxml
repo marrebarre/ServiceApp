@@ -1,45 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="522.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.worker.Worker">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="891.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.worker.Worker">
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="CENTER" prefHeight="357.0" prefWidth="522.0">
+            <HBox alignment="CENTER" prefHeight="274.0" prefWidth="891.0">
                <children>
-                  <Pane prefHeight="357.0" prefWidth="529.0">
+                  <Pane prefHeight="357.0" prefWidth="611.0">
                      <children>
-                        <Text fx:id="jobid" layoutX="19.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job right now:" />
-                        <TextArea fx:id="specid" layoutX="35.0" layoutY="119.0" prefHeight="233.0" prefWidth="200.0" />
-                        <Text layoutX="35.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job description:" wrappingWidth="100.83251953125" />
-                        <Text fx:id="addressid" layoutX="19.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delivery address:" />
-                        <Button layoutX="360.0" layoutY="17.0" mnemonicParsing="false" onAction="#exit" prefHeight="51.0" prefWidth="148.0" text="Exit">
+                        <Text fx:id="jobid" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current job">
+                           <font>
+                              <Font size="26.0" />
+                           </font></Text>
+                        <TextArea fx:id="specid" editable="false" layoutX="368.0" layoutY="17.0" prefHeight="161.0" prefWidth="243.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font></TextArea>
+                        <Text layoutX="405.0" layoutY="9.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job description:" wrappingWidth="168.83251953125">
                            <font>
                               <Font size="24.0" />
-                           </font>
-                        </Button>
-                        <Button layoutX="333.0" layoutY="274.0" mnemonicParsing="false" onAction="#editProfile" prefHeight="51.0" prefWidth="176.0" text="Edit Profile">
+                           </font></Text>
+                        <Text fx:id="addressid" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delivery address:" wrappingWidth="356.76953125">
+                           <font>
+                              <Font size="26.0" />
+                           </font></Text>
+                        <Button fx:id="nextid" layoutX="496.0" layoutY="192.0" mnemonicParsing="false" onAction="#next" prefHeight="51.0" prefWidth="109.0" text="Next">
                            <font>
                               <Font size="24.0" />
-                           </font>
-                        </Button>
-                        <ImageView fx:id="fullscreen" fitHeight="42.0" fitWidth="46.0" layoutX="305.0" layoutY="21.0" onMouseClicked="#fullscreen" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../pictures/fullscreen.png" />
-                           </image>
-                           <effect>
-                              <Shadow height="0.0" radius="0.0" width="0.0" />
-                           </effect>
-                        </ImageView>
-                        <Button fx:id="nextid" layoutX="245.0" layoutY="70.0" mnemonicParsing="false" onAction="#next" text="Next" />
-                        <Label fx:id="Dateid" layoutX="19.0" layoutY="43.0" text="Date" wrapText="true" />
-                        <Label fx:id="phoneid" layoutX="17.0" layoutY="62.0" text="Phone" />
-                        <Button fx:id="doneid" layoutX="238.0" layoutY="23.0" mnemonicParsing="false" onAction="#deleteorder" text="Done" />
+                           </font></Button>
+                        <Label fx:id="Dateid" layoutY="111.0" prefHeight="30.0" prefWidth="359.0" text="Date:" wrapText="true">
+                           <font>
+                              <Font size="26.0" />
+                           </font></Label>
+                        <Label fx:id="phoneid" layoutY="154.0" prefHeight="30.0" prefWidth="358.0" text="Phone:">
+                           <font>
+                              <Font size="26.0" />
+                           </font></Label>
+                        <Button fx:id="doneid" layoutX="374.0" layoutY="192.0" mnemonicParsing="false" onAction="#deleteorder" prefHeight="51.0" prefWidth="109.0" text="Done">
+                           <font>
+                              <Font size="24.0" />
+                           </font></Button>
                      </children>
                   </Pane>
                </children>
@@ -47,4 +62,71 @@
          </children>
       </VBox>
    </center>
+   <top>
+      <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <left>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane>
+                     <children>
+                        <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="51.0" prefWidth="125.0" text="Log out">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </left>
+         <right>
+            <HBox alignment="TOP_RIGHT" prefHeight="69.0" prefWidth="246.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="71.0" prefWidth="217.0">
+                     <children>
+                        <Button layoutX="78.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="51.0" prefWidth="125.0" text="Exit">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="fullscreenButton" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#fullscreen" prefHeight="50.0" prefWidth="55.0">
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../pictures/fullscreen.png" />
+                                 </image>
+                                 <effect>
+                                    <Shadow height="0.0" radius="0.0" width="0.0" />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </right>
+      </BorderPane>
+   </top>
+   <bottom>
+      <TilePane alignment="CENTER_RIGHT" prefHeight="67.0" prefWidth="787.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="52.0" prefWidth="186.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#editProfile" prefHeight="51.0" prefWidth="176.0" text="Edit Profile">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TilePane>
+   </bottom>
 </BorderPane>

@@ -155,7 +155,7 @@ public class Database {
         return id;
     }
     public void insertorder(int userid,int employeeid,String tittle,String specification,String phone,String streetaddress,String note,String date) {
-        String sqlUpdate = "Insert INTO Orders(Service,Customer_idCustomer,Employee_idEmployee,Specification,Address,Phone,Note,Date) Values('" + tittle + "','" + userid + "','" + employeeid + "','" + specification + "','" + phone + "','" + streetaddress + "','"+note+"','"+date+"')";
+        String sqlUpdate = "Insert INTO Orders(Service,Customer_idCustomer,Employee_idEmployee,Specification,Address,Phone,Note,Date) Values('" + tittle + "','" + userid + "','" + employeeid + "','" + specification + "','" + streetaddress + "','" + phone + "','"+note+"','"+date+"')";
         try {
 
             statement.executeUpdate(sqlUpdate);

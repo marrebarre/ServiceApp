@@ -50,7 +50,11 @@ public class Worker implements Initializable {
                 arrayList.remove(counter);
                 counter = counter - 1;
 
-                next();
+                try {
+                    next();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
 
         }
@@ -59,23 +63,24 @@ public class Worker implements Initializable {
         }
 
     }
-    public void next() {
+    public void next() throws Exception {
+        arrayList= database.tasksgetmytasks(database.getemployeeid(Login.email));
         if (!arrayList.isEmpty()){
             counter++;
         if (counter == arrayList.size()) {
             counter = 0;
         }
         addressid.setText("Address: " + arrayList.get(counter).getAddress());
-        jobid.setText("tittle: " + arrayList.get(counter).getTittle());
+        jobid.setText("Title: " + arrayList.get(counter).getTittle());
         Dateid.setText("Due: " + arrayList.get(counter).getDate());
         specid.setText(arrayList.get(counter).getSpec());
-        phoneid.setText(arrayList.get(counter).getPhone());
+        phoneid.setText("Phone: "+arrayList.get(counter).getPhone());
     }else {
-            addressid.setText("Address");
-            jobid.setText("tittle");
-            Dateid.setText("Due");
+            addressid.setText("Address: ");
+            jobid.setText("Title: ");
+            Dateid.setText("Due: ");
             specid.setText("");
-            phoneid.setText("");
+            phoneid.setText("Phone: ");
         }
 
     }
@@ -101,11 +106,11 @@ public class Worker implements Initializable {
            arrayList= database.tasksgetmytasks(database.getemployeeid(Login.email));
             System.out.println(Login.email);
            if (arrayList.size()>0){
-               addressid.setText("Address: "+arrayList.get(counter).getAddress());
-               jobid.setText("tittle: "+arrayList.get(counter).getTittle());
-               Dateid.setText("Due: "+arrayList.get(counter).getDate());
+               addressid.setText("Address: " + arrayList.get(counter).getAddress());
+               jobid.setText("Title: " + arrayList.get(counter).getTittle());
+               Dateid.setText("Due: " + arrayList.get(counter).getDate());
                specid.setText(arrayList.get(counter).getSpec());
-               phoneid.setText(arrayList.get(counter).getPhone());
+               phoneid.setText("Phone: "+arrayList.get(counter).getPhone());
            }
            counter++;
            if (counter==arrayList.size()){
